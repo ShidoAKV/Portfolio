@@ -39,7 +39,7 @@ export const PROJECTS = [
     image: portfolio,
     description:
       "You are currently on it",
-    technologies: ["HTML", "CSS", "React.js","TailwindCSS","Email.js","React-Toastify"],
+    technologies: ["React.js","TailwindCSS","Email.js","ReactToastify"],
     location:["https://github.com/ShidoAKV/Portfolio"],
   },
 ];

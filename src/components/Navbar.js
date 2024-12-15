@@ -74,7 +74,9 @@ function Navbar() {
                   "_blank"
                 );
               } else {
-                handleEducativeClick()
+                if (typeof handleEducativeClick === "function") {
+                  handleEducativeClick(); 
+                } 
               }
             }}
           />

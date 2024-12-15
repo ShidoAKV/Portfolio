@@ -15,7 +15,7 @@ function Project() {
             <motion.div  whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:1}}
             className='w-full lg:w-1/4'
             >
-        <img src={project.image} alt={project.title} width={150} height={150} onClick={() => window.open(project.location)} style={{cursor:'pointer'}}className='mb-6 rounded shadow-purple-600 shadow-lg   hover:scale-[104%] transition all ease out 0.3  ' />
+         <img src={project.image} alt={project.title} width={150} height={150} onClick={() => window.open(project.location)} style={{cursor:'pointer'}}className='mb-6 rounded shadow-purple-600 shadow-lg   hover:scale-[104%] transition all ease out 0.3  ' />
             </motion.div>
 
           <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}}

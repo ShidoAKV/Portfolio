@@ -8,6 +8,7 @@ import Project from './components/Project';
 import Technology from './components/Technology';
 import WelcomePortfolio from './components/Welcome';
 import { useState,useEffect } from 'react';
+
 function App() {
 
    const [showWelcome, setShowWelcome] = useState(true);

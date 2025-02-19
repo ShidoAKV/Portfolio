@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3c430a79.css",
-    "main.js": "/Portfolio/static/js/main.8408f946.js",
+    "main.css": "/Portfolio/static/css/main.c3beed1f.css",
+    "main.js": "/Portfolio/static/js/main.db7300ba.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/myprofile.png": "/Portfolio/static/media/myprofile.ea4ebc76edcd2aee1d1c.png",
     "static/media/aboutpic.jpg": "/Portfolio/static/media/aboutpic.2980bcbe5d8c7053b586.jpg",
     "static/media/project-2.jpg": "/Portfolio/static/media/project-2.1163c0a4ffbe03d987cf.jpg",
     "static/media/VotingApp_img.jpg": "/Portfolio/static/media/VotingApp_img.0fcdc67bc60c5edc2dfa.jpg",
+    "static/media/NexaHealth.jpg": "/Portfolio/static/media/NexaHealth.0572fc49b1fa94ffbb0e.jpg",
     "static/media/logo.png": "/Portfolio/static/media/logo.7d6e1cad69f088f76760.png",
     "static/media/c.svg": "/Portfolio/static/media/c.c2926ce8baf39e14b40727267dbfcd93.svg",
     "index.html": "/Portfolio/index.html",
-    "main.3c430a79.css.map": "/Portfolio/static/css/main.3c430a79.css.map",
-    "main.8408f946.js.map": "/Portfolio/static/js/main.8408f946.js.map",
+    "main.c3beed1f.css.map": "/Portfolio/static/css/main.c3beed1f.css.map",
+    "main.db7300ba.js.map": "/Portfolio/static/js/main.db7300ba.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c430a79.css",
-    "static/js/main.8408f946.js"
+    "static/css/main.c3beed1f.css",
+    "static/js/main.db7300ba.js"
   ]
 }

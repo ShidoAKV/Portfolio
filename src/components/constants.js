@@ -1,7 +1,9 @@
-import snakegame from "./snakegame.jpeg"
+import snakegame from "./snakegame.jpeg";
 import project2 from "./project-2.jpg";
-import portfolio from './portfolio.png'
-import votingApp from './VotingApp_img.jpg'
+import portfolio from './portfolio.png';
+import votingApp from './VotingApp_img.jpg';
+import NexaHealth from './NexaHealth.jpg'
+
 
 export const HERO_CONTENT = `I am a passionate  developer and Coder with a knack for crafting robust and scalable web applications. 
 I have honed my skills in front-end technologies like Reactjs,Html,tailwindcss,and as well as in Programming languages like c++,javascript.
@@ -10,6 +12,14 @@ I have honed my skills in front-end technologies like Reactjs,Html,tailwindcss,a
 export const ABOUT_TEXT = `I am a dedicated and versatile  Programmer with a passion for creating efficient and user-friendly web applications.I am good at some Technologies like Reactjs, tailwindCSS,Html,CSS and good command on programming language like C++,javascript My journey in development and programming began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges.Outside of coding, I enjoy staying active, exploring new technologies.`;
 
 export const PROJECTS = [
+  {
+    title: "NexaHealth",
+    image:NexaHealth,
+    description:
+      "This project is a full-stack web application built using the MERN stack, featuring real-time communication with WebRTC & WebSockets, secure JWT-based authentication, optimized media handling via Cloudinary, and seamless payment gateway integration for a smooth user experience. 🚀",
+    technologies: ["React.js", "Node.js","MongoDB", "express.js","WebRtc","Websockets","JWT","cloudinary","Payment Gateway"],
+    location:["https://github.com/ShidoAKV/NexaHealth"],
+  },
   {
     title: "VotingApp",
     image: votingApp,

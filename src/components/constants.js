@@ -5,11 +5,11 @@ import votingApp from './VotingApp_img.jpg';
 import NexaHealth from './NexaHealth.jpg'
 
 
-export const HERO_CONTENT = `I am a passionate  developer and Coder with a knack for crafting robust and scalable web applications. 
-I have honed my skills in front-end technologies like Reactjs,Html,tailwindcss,and as well as in Programming languages like c++,javascript.
- My goal was to Become a Proficient Software developer engineer so that I will support my family .`;
+export const HERO_CONTENT = `I am a passionate developer and coder with a strong background in building dynamic and scalable web applications. I enjoy creating efficient, user-friendly solutions and continuously seek opportunities to grow both personally and professionally. My long-term goal is to become a skilled software engineer and use my work to support and uplift my family`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile  Programmer with a passion for creating efficient and user-friendly web applications.I am good at some Technologies like Reactjs, tailwindCSS,Html,CSS and good command on programming language like C++,javascript My journey in development and programming began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges.Outside of coding, I enjoy staying active, exploring new technologies.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile Programmer with a passion for creating efficient and user-friendly web applications. Expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js) and solid experience in building dynamic,scalable web applications.I also have strong proficiency in Next.js for creating optimized React-based applications, and React Native for developing cross-platform Android apps.
+
+Driven by a goal to become a proficient software engineer,I am committed to continuously improving my skills and using my work to support and uplift my family.`;
 
 export const PROJECTS = [
   {

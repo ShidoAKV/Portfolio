@@ -31,12 +31,13 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.8 }}
-          className='w-full lg:w-1/2 p-6 my-9 mx-1   flex items-center rounded-2xl border-2 border-purple-600 justify-center'
+          className="w-full lg:w-1/2 p-6  sm:p-2 my-8 mx-1 flex items-center rounded-2xl border-2 border-purple-600 justify-center"
         >
-          <p className='text-lg lg:text-xl xl:text-2xl  text-justify text-neutral-300'>
+          <p className="text-base  sm:text-sm lg:text-lg xl:text-xl mx-2 text-left lg:text-justify text-neutral-300">
             {ABOUT_TEXT}
           </p>
         </motion.div>
+
       </div>
     </div>
   );

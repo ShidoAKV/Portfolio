@@ -7,7 +7,12 @@ import { SiMysql } from "react-icons/si";
 import { MdCss } from "react-icons/md";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
+import { RiNextjsFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa6";
+import { SiSocketdotio } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
 import clogo from "./c.svg";
 import { motion } from "framer-motion";
 
@@ -34,17 +39,14 @@ function Technology() {
      <motion.h2 whileInView={ { opacity:1,y:0}} initial={{opacity:0,y:100}} transition={{duration:1.5}}
         className='my-20 text-center text-2xl'>Technology</motion.h2>
 
-      <div className='flex flex-wrap items-center justify-center gap-4'>
+      <div className='flex flex-wrap  justify-center gap-4'>
 
         <motion.div variants={iconvariants(3)} initial="initial" animate="animate"
          className='rounded-2xl border-4 border-neutral-400 p-4'>
           <RiReactjsLine className='text-6xl text-pink-400'/>
         </motion.div>
 
-        <motion.div variants={iconvariants(3)} initial="initial" animate="animate"
-        className='rounded-2xl border-4 border-neutral-400 p-4'>
-          <SiMysql className='text-6xl text-blue-400'/>
-        </motion.div>
+       
 
         <motion.div variants={iconvariants(2.5)} initial="initial" animate="animate"
          className='rounded-2xl border-4 border-neutral-400 p-4'>
@@ -64,6 +66,20 @@ function Technology() {
         <motion.div variants={iconvariants(3)} initial="initial" animate="animate"
          className='rounded-2xl border-4 border-neutral-400 p-4'>
           <SiExpress className='text-6xl text-grey-400'/>
+        </motion.div>
+        <motion.div variants={iconvariants(3)} initial="initial" animate="animate"
+         className='rounded-2xl border-4 border-neutral-400 p-4'>
+          <TbBrandReactNative  className='text-6xl text-blue-600'/>
+        </motion.div>
+
+        <motion.div variants={iconvariants(3)} initial="initial" animate="animate"
+         className='rounded-2xl border-4 border-neutral-400 p-4'>
+          <RiNextjsFill  className='text-6xl '/>
+        </motion.div>
+
+        <motion.div variants={iconvariants(3)} initial="initial" animate="animate"
+         className='rounded-2xl border-4 border-neutral-400 p-4'>
+          <SiSocketdotio className='text-6xl '/>
         </motion.div>
 
      </div>
@@ -94,6 +110,35 @@ function Technology() {
 
 
      </div>
+
+     <motion.h2 whileInView={ { opacity:1,y:0}} initial={{opacity:0,y:-100}} transition={{duration:1.5}} className='my-20 text-center text-2xl py-9' >DataBases/Tools</motion.h2>
+     <div className='flex flex-wrap items-center justify-center gap-4 pt-25'>
+     
+     <motion.div variants={iconvariants(3)} initial="initial" animate="animate"
+       className='rounded-2xl border-4 border-neutral-400 p-4'>
+       <SiMysql className='text-6xl text-blue-400'/>
+      </motion.div>
+
+      <motion.div variants={iconvariants(2.5)} initial="initial" animate="animate"
+         className='rounded-2xl border-4 border-neutral-400 p-4'>
+          <SiMongodb className='text-6xl text-green-400'/>
+      </motion.div>
+      <motion.div variants={iconvariants(2.5)} initial="initial" animate="animate"
+         className='rounded-2xl border-4 border-neutral-400 p-4'>
+          <FaGithub className='text-6xl text-white'/>
+      </motion.div>
+
+      <motion.div variants={iconvariants(2.5)} initial="initial" animate="animate"
+         className='rounded-2xl border-4 border-neutral-400 p-4'>
+          <VscVscode className='text-6xl text-blue-500'/>
+      </motion.div>
+
+      
+
+      
+
+
+   </div>
      
     </div>
   

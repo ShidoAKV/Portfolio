@@ -17,7 +17,7 @@ export const PROJECTS = [
     image:NexaHealth,
     description:
       "This project is a full-stack web application built using the MERN stack, featuring real-time communication with WebRTC & WebSockets, secure JWT-based authentication, optimized media handling via Cloudinary, and seamless payment gateway integration for a smooth user experience. 🚀",
-    technologies: ["React.js", "Node.js","MongoDB", "express.js","WebRtc","Websockets","JWT","cloudinary","Payment Gateway"],
+    technologies: ["React.js", "Node.js","MongoDB", "express.js","socket.io","peer.js","JWT","cloudinary","Payment Gateway","Gemini API","nodemailer","Html-pdf","lottie-files","React-packages"],
     location:["https://github.com/ShidoAKV/NexaHealth"],
   },
   {

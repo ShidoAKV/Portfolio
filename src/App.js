@@ -44,7 +44,6 @@ function App() {
               <About />
               <Technology />
               <Project />
-              {/* <Contact /> */}
               <ContactForm />
             </div>
           </motion.div>

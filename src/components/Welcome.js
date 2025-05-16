@@ -4,20 +4,7 @@
 import Lottie from "lottie-react";
 import animationwelcome from "./Animation-welcome.json"
 import animationgeneral from "./Animation -general.json"
-// const draw = {
-//   hidden: { pathLength: 0, opacity: 0 },
-//   visible: (i) => {
-//     const delay = 1 + i * 1.5; // Increase delay for slower appearance
-//     return {
-//       pathLength: 1,
-//       opacity: 1,
-//       transition: {
-//         pathLength: { delay, type: "spring", duration: 1, bounce: 0 }, // Smooth path length transition
-//         opacity: { delay, duration: 0.4, ease: "easeInOut" }, // Smooth opacity transition
-//       },
-//     };
-//   },
-// };
+
 
 const Welcome = () => {
   return (

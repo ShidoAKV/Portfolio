@@ -1,5 +1,3 @@
-import snakegame from "./snakegame.jpeg";
-import project2 from "./project-2.jpg";
 import portfolio from './portfolio.png';
 import votingApp from './VotingApp_img.jpg';
 import NexaHealth from './NexaHealth.jpg'

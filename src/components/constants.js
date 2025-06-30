@@ -27,10 +27,10 @@ export const PROJECTS = [
   technologies: [
     "Next.js",
     "Clerk",
-    "Razorpay API",
+    "Payment Gateway",
     "Neon DB (PostgreSQL)",
     "Cloudinary",
-    "React-Toastify",
+    "React-hot-toast",
     "Tailwind CSS"
   ],
   location: ["https://github.com/ShidoAKV/Pilley"],

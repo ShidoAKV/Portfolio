@@ -16,7 +16,8 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.8 }}
-          className="w-[320px] lg:w-full max-w-sm lg:max-w-md flex justify-center"
+          viewport={{once:true}}
+          className="w-[320px] lg:w-[500px] max-w-sm lg:max-w-md flex justify-center"
         >
           <img
             src={Aboutpic}
@@ -30,6 +31,7 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.8 }}
+          viewport={{once:true}}
           className="w-[325px] md:w-full bg-neutral-900/60  border border-white rounded-2xl p-4 text-neutral-300"
         >
           <p className="text-left p-1 sm:text-left text-lg font-light bg-clip-text text-transparent bg-gradient-to-r from-purple-300 via-gray-300 to-sky-300 tracking-wide">

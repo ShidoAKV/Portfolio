@@ -34,39 +34,39 @@ const categories = [
   {
     title: 'Technology',
     items: [
-      { icon: <RiReactjsLine className="text-6xl text-pink-400 drop-shadow-[0_2px_8px_rgba(236,72,153,0.5)]" />, label: 'React.js', duration: 3 },
-      { icon: <FaNodeJs className="text-6xl text-green-400 drop-shadow-[0_2px_8px_rgba(34,197,94,0.5)]" />, label: 'Node.js', duration: 2.5 },
-      { icon: <SiTailwindcss className="text-6xl text-cyan-400 drop-shadow-[0_2px_8px_rgba(34,211,238,0.5)]" />, label: 'TailwindCSS', duration: 3 },
-      { icon: <SiMongodb className="text-6xl text-green-400 drop-shadow-[0_2px_8px_rgba(34,197,94,0.5)]" />, label: 'MongoDB', duration: 2.5 },
-      { icon: <SiExpress className="text-6xl text-gray-400 drop-shadow-md" />, label: 'Express.js', duration: 3 },
-      { icon: <TbBrandReactNative className="text-6xl text-blue-600 drop-shadow-md" />, label: 'React Native', duration: 3 },
-      { icon: <RiNextjsFill className="text-6xl text-white drop-shadow-md" />, label: 'Next.js', duration: 3 },
-      { icon: <SiSocketdotio className="text-6xl text-white drop-shadow-md" />, label: 'Socket.io', duration: 3 },
+      { icon: <RiReactjsLine className="text-7xl lg:text-6xl text-pink-400 drop-shadow-[0_2px_8px_rgba(236,72,153,0.5)]" />, label: 'React.js', duration: 3 },
+      { icon: <FaNodeJs className="text-7xl lg:text-6xl text-green-400 drop-shadow-[0_2px_8px_rgba(34,197,94,0.5)]" />, label: 'Node.js', duration: 2.5 },
+      { icon: <SiTailwindcss className="text-7xl lg:text-6xl text-cyan-400 drop-shadow-[0_2px_8px_rgba(34,211,238,0.5)]" />, label: 'TailwindCSS', duration: 3 },
+      { icon: <SiMongodb className="text-7xl lg:text-6xl text-green-400 drop-shadow-[0_2px_8px_rgba(34,197,94,0.5)]" />, label: 'MongoDB', duration: 2.5 },
+      { icon: <SiExpress className="text-7xl lg:text-6xl text-gray-400 drop-shadow-md" />, label: 'Express.js', duration: 3 },
+      { icon: <TbBrandReactNative className="text-7xl lg:text-6xl text-blue-600 drop-shadow-md" />, label: 'React Native', duration: 3 },
+      { icon: <RiNextjsFill className="text-7xl lg:text-6xl text-white drop-shadow-md" />, label: 'Next.js', duration: 3 },
+      { icon: <SiSocketdotio className="text-7xl lg:text-6xl text-white drop-shadow-md" />, label: 'Socket.io', duration: 3 },
     ],
   },
   {
     title: 'Languages',
     items: [
-      { icon: <IoLogoHtml5 className="text-6xl text-red-400 drop-shadow-md" />, label: 'HTML5', duration: 3 },
-      { icon: <MdCss className="text-6xl text-blue-400 drop-shadow-md" />, label: 'CSS3', duration: 2.5 },
-      { icon: <DiJavascript1 className="text-6xl text-yellow-400 drop-shadow-md" />, label: 'JavaScript', duration: 3 },
-      { icon: <img src={clogo} className="w-14 h-[100%] drop-shadow-md" alt="C" />, label: 'C Language', duration: 2.5 },
+      { icon: <IoLogoHtml5 className="text-7xl lg:text-6xl text-red-400 drop-shadow-md" />, label: 'HTML', duration: 3 },
+      { icon: <MdCss className="text-7xl lg:text-6xl text-blue-400 drop-shadow-md" />, label: 'CSS', duration: 2.5 },
+      { icon: <DiJavascript1 className="text-7xl lg:text-6xl text-yellow-400 drop-shadow-md" />, label: 'JavaScript', duration: 3 },
+      { icon: <img src={clogo} className="w-16 h-[100%] drop-shadow-md" alt="C" />, label: 'C++', duration: 2.5 },
     ],
   },
   {
     title: 'Databases / Tools',
     items: [
-      { icon: <SiMysql className="text-6xl text-blue-400 drop-shadow-md" />, label: 'MySQL', duration: 3 },
-      { icon: <SiMongodb className="text-6xl text-green-400 drop-shadow-md" />, label: 'MongoDB', duration: 2.5 },
-      { icon: <FaGithub className="text-6xl text-white drop-shadow-md" />, label: 'GitHub', duration: 2.5 },
-      { icon: <VscVscode className="text-6xl text-blue-500 drop-shadow-md" />, label: 'VS Code', duration: 2.5 },
+      { icon: <SiMysql className="text-7xl lg:text-6xl text-blue-400 drop-shadow-md" />, label: 'MySQL', duration: 3 },
+      { icon: <SiMongodb className="text-7xl lg:text-6xl text-green-400 drop-shadow-md" />, label: 'MongoDB', duration: 2.5 },
+      { icon: <FaGithub className="text-7xl lg:text-6xl text-white drop-shadow-md" />, label: 'GitHub', duration: 2.5 },
+      { icon: <VscVscode className="text-7xl lg:text-6xl text-blue-500 drop-shadow-md" />, label: 'VS Code', duration: 2.5 },
     ],
   },
 ];
 
 function Technology() {
   return (
-    <div className="pb-24">
+    <div className="w-full max-w-4xl lg:max-w-5xl px-4 mx-auto">
       {categories?.map((section, idx) => (
         <div key={idx}>
           <motion.h2
@@ -90,7 +90,7 @@ function Technology() {
                   variants={iconvariants(duration)}
                   initial="initial"
                   animate="animate"
-                  className="rounded-2xl  border-2 border-gray-500 p-4 shadow-lg hover:shadow-sky-600 transition"
+                  className="rounded-2xl  border-2 border-gray-500 p-4 shadow-lg hover:shadow-purple-600 transition"
                 >
                   {icon}
                 </motion.div>

@@ -3,7 +3,8 @@ import { motion } from 'framer-motion';
 
 function Project() {
   return (
-    <div className='w-[320px] mr-5 lg:max-w-6xl '>
+    <div className='w-full max-w-7xl px-4 lg:px-8 mx-auto'>
+
       <div className='pb-16  '>
         {/* Heading */}
         <motion.h2
@@ -21,7 +22,7 @@ function Project() {
           {PROJECTS?.map((project, index) => (
             <motion.div
               key={index}
-              className="bg-neutral-900 border border-purple-600 rounded-xl p-4 shadow-lg hover:shadow-purple-500 transition duration-300"
+              className="bg- border border-purple-600 rounded-xl p-4 shadow-lg hover:shadow-purple-500 transition duration-300"
               initial={{ opacity: 0, y: 0, z: -100 }}
               whileInView={{ opacity: 1, y: 0, z: 0 }}
               transition={{
@@ -67,7 +68,7 @@ function Project() {
 
 
               {/* Description */}
-              < p className="mb-3 text-md bg-clip-text text-transparent bg-gradient-to-r from-purple-300 via-gray-300 to-sky-300 " >
+              < p className="mb-3 text-md bg-clip-text text-transparent bg-gradient-to-r from-purple-300 via-gray-300 to-sky-300  " >
                 {project.description}
               </p>
 

@@ -20,7 +20,7 @@ export const PROJECTS = [
     link:["https://nexahealth.onrender.com"]
   },
   {
-  title: "Pilley eCommerce Website",
+  title: "Pilley Clothing Website",
   image:PilleyImage,
   description:
     "Pilley is a modern clothing eCommerce platform built using Next.js and a PostgreSQL backend via Neon DB. It features secure user authentication with Clerk, seamless payments through Razorpay, and a robust product image system powered by Cloudinary. The platform includes a dynamic shopping cart, refund handling via Razorpay payment links, and real-time feedback with React-Toastify, ensuring a responsive and intuitive user experience.",

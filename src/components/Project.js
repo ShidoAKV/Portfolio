@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 function Project() {
   return (
-    <div className='w-full max-w-7xl px-4 lg:px-8 mx-auto'>
+    <div className='w-full max-w-7xl px-1 lg:px-8 mx-auto'>
 
       <div className='pb-16  '>
         {/* Heading */}

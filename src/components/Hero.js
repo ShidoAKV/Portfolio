@@ -40,7 +40,7 @@ function Hero() {
             variants={container(0.9)}
             initial="hidden"
             animate="visible"
-            className="border  w-[320px] lg:w-full md:full rounded-xl p-6 mt-4 shadow-lg"
+            className="border  w-[320px] lg:w-full md:full rounded-xl p-6 mt-4 shadow-lg shadow-purple-700"
           >
             <p className="text-left  text-lg font-light bg-clip-text text-transparent bg-gradient-to-r from-purple-300 via-gray-300 to-sky-300">
               {HERO_CONTENT}

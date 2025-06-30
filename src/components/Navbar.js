@@ -58,7 +58,7 @@ function Navbar() {
     <ToastContainer/>
     <nav className='  mb-20 flex items-center justify-between py-6'>
         <div className=' flex flex-shrink-0 items-center '>
-          <img src={logo} alt="logo" className='mx-2 w-10  bg-gray-200 rounded-2xl ' 
+          <img src={logo} alt="logo" className='mx-4 lg:mx-10 w-10  bg-gray-200 rounded-2xl ' 
           />
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>

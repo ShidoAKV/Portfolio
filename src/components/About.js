@@ -32,7 +32,7 @@ function About() {
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.8 }}
           viewport={{once:true}}
-          className="w-[325px] md:w-full bg-neutral-900/60  border border-white rounded-2xl p-4 text-neutral-300"
+          className="w-[325px] md:w-full bg-neutral-900/60  border border-white rounded-2xl p-4 text-neutral-300 shadow-lg shadow-purple-700"
         >
           <p className="text-left p-1 sm:text-left text-lg font-light bg-clip-text text-transparent bg-gradient-to-r from-purple-300 via-gray-300 to-sky-300 tracking-wide">
             {ABOUT_TEXT}

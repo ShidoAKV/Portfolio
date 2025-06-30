@@ -46,7 +46,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="py-16 px-4 text-white" id="contact">
+    <div className="py-16 w-[320px] text-white" id="contact">
       <h2 className="text-4xl font-bold text-center mb-8">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-white">Get in Touch</span>
       </h2>
@@ -54,7 +54,7 @@ const ContactForm = () => {
       <form
         ref={formRef}
         onSubmit={handleSubmit}
-        className="max-w-2xl mx-auto bg-neutral-900 p-8 rounded-xl shadow-md space-y-6"
+        className="max-w-2xl mx-auto bg-neutral-900 p-6 rounded-xl shadow-md space-y-6"
       >
         <div>
           <label htmlFor="name" className="block mb-2 text-lg font-medium">Name</label>

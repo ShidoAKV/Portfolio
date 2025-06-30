@@ -17,7 +17,7 @@ function Hero() {
       <div className='flex flex-col-reverse sm:flex-row items-center sm:items-start justify-center gap-8 px-4 sm:px-8'>
 
         {/* Left Section: Text */}
-        <div className='w-full sm:w-1/2 flex flex-col justify-center'>
+        <div className='w[320px] lg:w-full sm:w-1/2 flex flex-col justify-center'>
           <motion.h1
             variants={container(0.5)}
             initial="hidden"
@@ -40,9 +40,9 @@ function Hero() {
             variants={container(0.9)}
             initial="hidden"
             animate="visible"
-            className="border rounded-xl p-6 mt-4 shadow-lg"
+            className="border  w-[320px] md:full rounded-xl p-6 mt-4 shadow-lg"
           >
-            <p className="text-center sm:text-left text-lg font-light bg-clip-text text-transparent bg-gradient-to-r from-purple-300 via-gray-300 to-sky-300">
+            <p className="text-left  text-lg font-light bg-clip-text text-transparent bg-gradient-to-r from-purple-300 via-gray-300 to-sky-300">
               {HERO_CONTENT}
             </p>
           </motion.div>

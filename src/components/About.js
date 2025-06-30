@@ -16,12 +16,12 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.8 }}
-          className="w-full max-w-sm lg:max-w-md flex justify-center"
+          className="w-[320px] lg:w-full max-w-sm lg:max-w-md flex justify-center"
         >
           <img
             src={Aboutpic}
             alt="About"
-            className="rounded-2xl border-2 border-purple-600 shadow-lg object-cover w-full"
+            className="rounded-2xl border-2 border-white shadow-lg object-cover w-full"
           />
         </motion.div>
 
@@ -30,9 +30,9 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.8 }}
-          className="w-full max-w-2xl bg-neutral-900/60 backdrop-blur-md border border-purple-600 rounded-2xl p-6 text-neutral-300"
+          className="w-[325px] md:w-full bg-neutral-900/60  border border-white rounded-2xl p-4 text-neutral-300"
         >
-          <p className="text-center sm:text-left text-lg font-light bg-clip-text text-transparent bg-gradient-to-r from-purple-300 via-gray-300 to-sky-300 tracking-wide">
+          <p className="text-left p-1 sm:text-left text-lg font-light bg-clip-text text-transparent bg-gradient-to-r from-purple-300 via-gray-300 to-sky-300 tracking-wide">
             {ABOUT_TEXT}
           </p>
         </motion.div>

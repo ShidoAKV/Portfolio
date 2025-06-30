@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 
 function Project() {
   return (
-    <div className='w-[320px] lg:max-w-6xl mx-auto sm:px-6'>
-      <div className='pb-16 '>
+    <div className='w-[320px] mr-5 lg:max-w-6xl '>
+      <div className='pb-16  '>
         {/* Heading */}
         <motion.h2
           className="my-12 text-center text-3xl  text-white"

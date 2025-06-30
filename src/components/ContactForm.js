@@ -54,7 +54,7 @@ const ContactForm = () => {
       <form
         ref={formRef}
         onSubmit={handleSubmit}
-        className="max-w-2xl mx-auto bg-neutral-900 p-6 rounded-xl shadow-md space-y-6"
+        className="max-w-2xl mx-auto border border-white bg-neutral-900 p-6 rounded-xl shadow-md space-y-6"
       >
         <div>
           <label htmlFor="name" className="block mb-2 text-lg font-medium">Name</label>

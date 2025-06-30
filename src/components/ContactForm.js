@@ -45,7 +45,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="w-full max-w-4xl lg:max-w-5xl px-1 mx-auto pb-5" id="contact">
+      <div className="w-full max-w-4xl lg:max-w-5xl  mx-auto pb-5" id="contact">
         <h2 className="text-4xl font-bold text-center mb-8">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-white">Get in Touch</span>
         </h2>

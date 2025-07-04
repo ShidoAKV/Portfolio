@@ -2,6 +2,7 @@ import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 
+
 const ContactForm = () => {
   const formRef = useRef();
   const [formData, setFormData] = useState({
@@ -32,15 +33,15 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-           toast.success('message sended successfully')
+          toast.success('message sended successfully')
           setFormData({ name: '', phone: '', message: '', email: '' });
         },
         (error) => {
-           toast.success(error)
+          toast.error(error)
         }
       );
-     
-      
+
+
   };
 
   return (
@@ -49,7 +50,6 @@ const ContactForm = () => {
         <h2 className="text-4xl font-bold text-center mb-8">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-white">Get in Touch</span>
         </h2>
-
         <form
           ref={formRef}
           onSubmit={handleSubmit}

@@ -8,7 +8,7 @@ import Technology from './components/Technology';
 import WelcomePortfolio from './components/Welcome';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-
+import Achievement from './components/Achievement.js';
 function App() {
   const [showWelcome, setShowWelcome] = useState(true);
 
@@ -43,6 +43,7 @@ function App() {
               <Hero />
               <About />
               <Technology />
+              <Achievement/>
               <Project />
               <ContactForm />
             </div>

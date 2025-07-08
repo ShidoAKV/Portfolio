@@ -16,6 +16,9 @@ import { FaNodeJs, FaGithub } from 'react-icons/fa6';
 import { VscVscode } from 'react-icons/vsc';
 import clogo from './c.svg';
 import { motion } from 'framer-motion';
+import { SiPrisma } from "react-icons/si";
+import { DiPostgresql } from "react-icons/di";
+import { SiRazorpay } from "react-icons/si";
 
 const iconvariants = (duration) => ({
   initial: { y: -10 },
@@ -39,9 +42,11 @@ const categories = [
       { icon: <SiTailwindcss className="text-7xl lg:text-6xl text-cyan-400 drop-shadow-[0_2px_8px_rgba(34,211,238,0.5)]" />, label: 'TailwindCSS', duration: 3 },
       { icon: <SiMongodb className="text-7xl lg:text-6xl text-green-400 drop-shadow-[0_2px_8px_rgba(34,197,94,0.5)]" />, label: 'MongoDB', duration: 2.5 },
       { icon: <SiExpress className="text-7xl lg:text-6xl text-gray-400 drop-shadow-md" />, label: 'Express.js', duration: 3 },
-      { icon: <TbBrandReactNative className="text-7xl lg:text-6xl text-blue-600 drop-shadow-md" />, label: 'React Native', duration: 3 },
+      { icon: <TbBrandReactNative className="text-7xl lg:text-6xl text-blue-600 drop-shadow-md" />, label: 'React Native', duration: 2.5 },
       { icon: <RiNextjsFill className="text-7xl lg:text-6xl text-white drop-shadow-md" />, label: 'Next.js', duration: 3 },
-      { icon: <SiSocketdotio className="text-7xl lg:text-6xl text-white drop-shadow-md" />, label: 'Socket.io', duration: 3 },
+      { icon: <SiSocketdotio className="text-7xl lg:text-6xl text-white drop-shadow-md" />, label: 'Socket.io', duration: 2.5 },
+      { icon: <SiPrisma className="text-7xl lg:text-6xl text-white drop-shadow-md" />, label: 'primsa ORM', duration: 3 },
+      { icon: <SiRazorpay className="text-7xl lg:text-6xl text-blue-600 drop-shadow-md" />, label: 'Razorpay', duration: 3 },
     ],
   },
   {
@@ -56,10 +61,13 @@ const categories = [
   {
     title: 'Databases / Tools',
     items: [
-      { icon: <SiMysql className="text-7xl lg:text-6xl text-blue-400 drop-shadow-md" />, label: 'MySQL', duration: 3 },
+      { icon: <SiMysql className="text-7xl lg:text-6xl text-blue-400 drop-shadow-md" />, label: 'MySQL', duration: 5 },
       { icon: <SiMongodb className="text-7xl lg:text-6xl text-green-400 drop-shadow-md" />, label: 'MongoDB', duration: 2.5 },
-      { icon: <FaGithub className="text-7xl lg:text-6xl text-white drop-shadow-md" />, label: 'GitHub', duration: 2.5 },
+      { icon: <FaGithub className="text-7xl lg:text-6xl text-white drop-shadow-md" />, label: 'GitHub', duration: 5 },
       { icon: <VscVscode className="text-7xl lg:text-6xl text-blue-500 drop-shadow-md" />, label: 'VS Code', duration: 2.5 },
+      { icon: <DiPostgresql className="text-7xl lg:text-6xl text-blue-500 drop-shadow-md" />, label: 'postgreSQL', duration: 2.5 },
+
+      
     ],
   },
 ];

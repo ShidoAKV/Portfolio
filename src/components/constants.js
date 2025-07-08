@@ -26,12 +26,13 @@ export const PROJECTS = [
     "Pilley is a modern clothing eCommerce platform built using Next.js and a PostgreSQL backend via Neon DB. It features secure user authentication with Clerk, seamless payments through Razorpay, and a robust product image system powered by Cloudinary. The platform includes a dynamic shopping cart, refund handling via Razorpay payment links, and real-time feedback with React-Toastify, ensuring a responsive and intuitive user experience.",
   technologies: [
     "Next.js",
-    "Clerk",
-    "Payment Gateway",
+    "Clerk-Authentication",
+    "Razorpay Payment Gateway/ Links",
     "Neon DB (PostgreSQL)",
     "Cloudinary",
     "React-hot-toast",
-    "Tailwind CSS"
+    "Tailwind CSS",
+    "PrismaORM"
   ],
   location: ["https://github.com/ShidoAKV/Pilley"],
   link:["https://www.pilley.in/"]

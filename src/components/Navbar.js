@@ -88,10 +88,10 @@ useEffect(() => {
     <ToastContainer/>
     {
     (!desktop)?(<nav
-      className={`fixed mt-2 right-3 z-50 flex shadow-purple-900  items-center border-white border-b-2 justify-between rounded-lg  transition-all duration-300 ease-in-out ${
+      className={`fixed  z-50 flex shadow-lg shadow-sky-300  items-center border-white border-b-2 justify-between rounded-lg  transition-all duration-300 ease-in-out ${
         scrolled
-          ? "w-[93%]   border border-white backdrop-blur-3xl top-2"
-          : "w-full z-50 mt-0 right-0 top-0  flex items-center justify-between   shadow-2xl rounded-lg"
+          ? "w-[93%] mt-2 right-3  shadow-none border border-white backdrop-blur-3xl top-2"
+          : "w-full z-50  right-0 top-0  flex items-center justify-between   shadow-2xl rounded-lg"
       } bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_40%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]`}
     >
       <div className="flex flex-shrink-0 items-center">

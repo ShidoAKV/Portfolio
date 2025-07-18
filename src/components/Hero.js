@@ -13,8 +13,8 @@ const container = (delayval) => ({
 
 function Hero() {
   return (
-    <div className='border-neutral-900 pb-4 lg:mb-35'>
-      <div className='flex flex-col-reverse sm:flex-row items-center sm:items-start justify-center gap-8 px-4 sm:px-8'>
+    <div className='border-neutral-900 pb-4 lg:mb-35 '>
+      <div className='flex  flex-col-reverse sm:flex-row items-center sm:items-start justify-center gap-8 px-4 sm:px-8'>
 
         {/* Left Section: Text */}
         <div className='w[320px] lg:w-full sm:w-1/2 flex flex-col justify-center'>
@@ -50,7 +50,7 @@ function Hero() {
         </div>
 
         {/* Right Section: Image */}
-        <div className='w-full sm:w-1/2 flex justify-center items-center '>
+        <div className='w-full pt-32 lg:pt-0 sm:w-1/2 flex justify-center items-center '>
           <motion.img
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}

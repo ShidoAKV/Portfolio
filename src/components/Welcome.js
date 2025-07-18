@@ -1,26 +1,31 @@
-// src/components/Welcome.js
-
-// import { motion } from "framer-motion";
+// Welcome.js
+import { motion } from "framer-motion";
 import Lottie from "lottie-react";
-import animationwelcome from "./Animation-welcome.json"
-import animationgeneral from "./Animation -general.json"
+import animationwelcome from "./Animation-welcome.json";
+import animationgeneral from "./Animation -general.json";
 
+const welcomeVariants = {
+  initial: { opacity: 0, scale: 0.95, y: 40 },
+  animate: { opacity: 1, scale: 1, y: 0, transition: { duration: 1 } },
+  exit: { opacity: 0, scale: 0.9, y: -20, transition: { duration: 1 } },
+};
 
 const Welcome = () => {
   return (
-    <div className='fixed top-0 -z-10 h-full w-full'>
-      <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-      <div className=" sm:overflow-hidden flex flex-col sm:flex-row justify-center items-center">
-       
-        <Lottie
-        className="sm:pt-0 pt-56"
-        animationData={animationwelcome}
-        />
-         <div className="hidden md:block">
+    <motion.div
+      className="fixed inset-0 z-40 flex items-center justify-center"
+      variants={welcomeVariants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
+      <div className="sm:overflow-hidden flex flex-col sm:flex-row justify-center items-center">
+        <Lottie className="sm:pt-0 pt-56" animationData={animationwelcome} />
+        <div className="hidden md:block">
           <Lottie animationData={animationgeneral} />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

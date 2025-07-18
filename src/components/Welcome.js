@@ -20,7 +20,7 @@ const Welcome = () => {
       exit="exit"
     >
       <div className="sm:overflow-hidden flex flex-col sm:flex-row justify-center items-center">
-        <Lottie className="sm:pt-0 pt-56" animationData={animationwelcome} />
+        <Lottie className="sm:pt-0 pt-30" animationData={animationwelcome} />
         <div className="hidden md:block">
           <Lottie animationData={animationgeneral} />
         </div>

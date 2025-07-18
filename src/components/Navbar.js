@@ -35,7 +35,7 @@ function Navbar() {
   const handleEducativeClick = () => {
     if (educativeViews < 3) {
       window.open(
-        "https://drive.google.com/file/d/1Jy7dfoJ05mwiRYxSnC79nkxKYK134wJX/view?usp=drive_link",
+        "https://drive.google.com/file/d/1oU9dg8aPEknXu_8EDL-JEaJ6focJDA3B/view?usp=drive_link",
         '_blank'
       );
       const newViews = educativeViews + 1;
@@ -69,7 +69,7 @@ function Navbar() {
               const uniqueID = localStorage.getItem("uniqueID");
               if (uniqueID ==="ec584647-5f5b-453a-1138-9de4ca03ac33"|| uniqueID==="8d8217ea-332b-4cac-27f1-7b2459d4a6a5"||uniqueID==="bb8029b9-b265-4b40-318b-816f002153c4"||uniqueID==="447441dc-2355-4bec-13e9-71ad27f1e367") {
                 window.open(
-                  "https://drive.google.com/file/d/1Jy7dfoJ05mwiRYxSnC79nkxKYK134wJX/view?usp=drive_link",
+                  "https://drive.google.com/file/d/1oU9dg8aPEknXu_8EDL-JEaJ6focJDA3B/view?usp=drive_link",
                   "_blank"
                 );
               } else {

@@ -49,20 +49,30 @@ function Project() {
                 {/* Title + Button Section */}
                 <div className="flex flex-col justify-between">
                   <h6
-                    onClick={() => window.open(project.location)}
                     className=" text-white px-3 py-1 rounded-md font-semibold cursor-pointer  mb-2  "
                     style={{
-                      background: 'linear-gradient(to right,purple, #8b5cf6)'  // indigo-500 to purple-500
+                      background: 'linear-gradient(to right,purple, #8b5cf6)'  
                     }}
                   >
                     {project.title}
                   </h6>
-                  <button
+                  
+                 {
+                 ( project.link)&&<button
                     onClick={() => window.open(project.link)}
                     className="bg-purple-600 text-white px-3 py-1 rounded-md text-sm font-semibold hover:bg-purple-500 "
                   >
                     Live
                   </button>
+                  }
+                   {
+                  (!project.link)&&<button
+                    onClick={() => window.open(project.location)}
+                    className="bg-purple-600 text-white px-3  py-1 rounded-md text-sm font-semibold hover:bg-purple-500 "
+                  >
+                    Github
+                  </button>
+                  }
                 </div>
               </div>
 

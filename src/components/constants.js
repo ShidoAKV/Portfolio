@@ -15,8 +15,8 @@ export const PROJECTS = [
     title: "NexaHealth",
     image: NexaHealth,
     description:
-      "This project is a full-stack web application built using the MERN stack, featuring real-time communication with WebRTC & WebSockets, secure JWT-based authentication, optimized media handling via Cloudinary, and seamless payment gateway integration for a smooth user experience. ",
-    technologies: ["React.js", "Node.js", "MongoDB", "express.js", "socket.io", "peer.js", "JWT","node-cache","cloudinary", "Payment Gateway", "Gemini API", "nodemailer", "Html-pdf", "lottie-files", "React-packages"],
+      "NexaHealth is a modern full-stack healthcare management system built with the MERN stack. It features real-time communication using WebSockets (Socket.io) and WebRTC (Peer.js), secure authentication via JWT, and optimized media storage using Cloudinary. The platform supports seamless payment integration, dynamic appointment booking, AI-powered symptom checking via the Gemini API, prescription generation with HTML-PDF, and email communication through Nodemailer. It also includes rate limiting with express-rate-limit and timeout handling using p-timeout, ensuring performance, reliability, and a smooth user experience.",
+    technologies: ["React.js", "Node.js", "MongoDB", "express.js", "socket.io", "peer.js", "JWT","node-cache","cloudinary", "Payment Gateway", "Gemini API", "nodemailer", "Html-pdf", "lottie-files","express-rate-limit","p-timeout","React-packages"],
     location: ["https://github.com/ShidoAKV/NexaHealth"],
     link: ["https://nexahealth.onrender.com"]
   },
@@ -68,8 +68,8 @@ export const PROJECTS = [
     title: "Portfolio-Website",
     image: portfolio,
     description:
-      "You are currently on it",
-    technologies: ["React.js", "TailwindCSS", "Email.js", "ReactToastify"],
+      "A modern, responsive portfolio website built with React.js and TailwindCSS, showcasing projects with smooth animations, integrated email functionality via Email.js, and real-time feedback using React-Toastify for an interactive user experience.",
+    technologies: ["React.js", "TailwindCSS", "Email.js", "ReactToastify","Framer-motion"],
     location: ["https://github.com/ShidoAKV/Portfolio"],
     link: ["https://shidoakv.github.io/Portfolio/"]
   },

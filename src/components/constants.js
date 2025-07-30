@@ -15,8 +15,8 @@ export const PROJECTS = [
     title: "NexaHealth",
     image: NexaHealth,
     description:
-      "NexaHealth is a modern full-stack healthcare management system built with the MERN stack. It features real-time communication using WebSockets (Socket.io) and WebRTC (Peer.js), secure authentication via JWT, and optimized media storage using Cloudinary. The platform supports seamless payment integration, dynamic appointment booking, AI-powered symptom checking via the Gemini API, prescription generation with HTML-PDF, and email communication through Nodemailer. It also includes rate limiting with express-rate-limit and timeout handling using p-timeout, ensuring performance, reliability, and a smooth user experience.",
-    technologies: ["React.js", "Node.js", "MongoDB", "express.js", "socket.io", "peer.js", "JWT","node-cache","cloudinary", "Payment Gateway", "Gemini API", "nodemailer", "Html-pdf", "lottie-files","express-rate-limit","p-timeout","React-packages"],
+      "NexaHealth is a modern full-stack healthcare management system built with the MERN stack. It features real-time communication using WebSockets (Socket.io) and WebRTC (Peer.js), secure authentication via JWT,optimize media (image & PDF & text) uploads using Multer and Cloudinary . The platform supports seamless payment integration, dynamic appointment booking, AI-powered symptom checking via the Gemini API, prescription generation with HTML-PDF, and email communication through Nodemailer. It also includes rate limiting with express-rate-limit, ensuring performance, reliability, and a smooth user experience.",
+    technologies: ["React.js", "Node.js", "MongoDB", "express.js", "socket.io", "peer.js", "JWT","node-cache","cloudinary","Multer", "Payment Gateway", "Gemini API", "nodemailer", "Html-pdf", "lottie-files","express-rate-limit","React-packages"],
     location: ["https://github.com/ShidoAKV/NexaHealth"],
     link: ["https://nexahealth.onrender.com"]
   },

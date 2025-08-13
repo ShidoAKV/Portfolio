@@ -41,7 +41,6 @@ function Project() {
                     alt={project.title}
                     width={100}
                     height={100}
-                    onClick={() => window.open(project.location)}
                     className=" cursor-pointer rounded-md shadow-lg hover:shadow-sky-500 transition duration-300"
                   />
                 </div>

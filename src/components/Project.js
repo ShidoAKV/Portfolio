@@ -45,7 +45,7 @@ function Project() {
                   />
                 </div>
 
-                {/* Title + Button Section */}
+               
                 <div className="flex flex-col justify-between">
                   <h6
                     className=" text-white px-3 py-1 rounded-md font-semibold cursor-pointer  mb-2  "

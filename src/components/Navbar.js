@@ -63,24 +63,25 @@ useEffect(() => {
   }, []);
 
   const handleEducativeClick = () => {
-    if (educativeViews < 3) {
-      window.open(
-        "https://drive.google.com/file/d/1ljZ6hsIEJ3vFWIFV5V4HlSKsZyMrDi3S/view?usp=drive_link",
-        '_blank'
-      );
-      const newViews = educativeViews + 1;
-      setEducativeViews(newViews);
-      localStorage.setItem('educativeViews', newViews);
-      setTimeout(() => toast.info(`Your Attempts : ${newViews} (Max Attempts:3)`), 0);
-    } else {
-      const uniqueId = generateUUID();
-      if (!dataBase.includes(uniqueId)) {
-        setdataBase((prevDataBase) => [...prevDataBase, uniqueId]);
-        setTimeout(() => toast.error(`You have exceeded the maximum number of views for this link.`));
-      } else {
-        toast.info('This unique ID already exists.');
-      }
-    }
+     toast.info(`You have exceeded the maximum number of views for this link.`)
+    // if (educativeViews < 3) {
+    //   window.open(
+    //     "https://drive.google.com/file/d/1ljZ6hsIEJ3vFWIFV5V4HlSKsZyMrDi3S/view?usp=drive_link",
+    //     '_blank'
+    //   );
+    //   const newViews = educativeViews + 1;
+    //   setEducativeViews(newViews);
+    //   localStorage.setItem('educativeViews', newViews);
+    //   setTimeout(() => toast.info(`Your Attempts : ${newViews} (Max Attempts:3)`), 0);
+    // } else {
+    //   const uniqueId = generateUUID();
+    //   if (!dataBase.includes(uniqueId)) {
+    //     setdataBase((prevDataBase) => [...prevDataBase, uniqueId]);
+    //     setTimeout(() => toast.error(`You have exceeded the maximum number of views for this link.`));
+    //   } else {
+    //     toast.info('This unique ID already exists.');
+    //   }
+    // }
   };
 
   return (

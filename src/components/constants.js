@@ -69,7 +69,7 @@ export const PROJECTS = [
     image: portfolio,
     description:
       "A modern, responsive portfolio website built with React.js and TailwindCSS, showcasing projects with smooth animations, integrated email functionality via Email.js, and real-time feedback using React-Toastify for an interactive user experience.",
-    technologies: ["React.js", "TailwindCSS", "Email.js", "ReactToastify","Framer-motion"],
+    technologies: ["Express.js","Node.js","React.js", "TailwindCSS","Lottie", "Email.js","Framer-motion","Gemini API"],
     location: ["https://github.com/ShidoAKV/Portfolio"],
     link: ["https://shidoakv.github.io/Portfolio/"]
   },

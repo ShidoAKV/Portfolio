@@ -9,7 +9,7 @@ const Assistance = () => {
   const [chatHistory, setChatHistory] = useState([]); // stores all messages
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
-  const backendUrl='http://localhost:3001'
+  const backendUrl='https://portfolio-vexl.onrender.com'
   const handleRequest = async () => {
      
     if (!prompt.trim()) return;

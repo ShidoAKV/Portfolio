@@ -53,7 +53,7 @@ const categories = [
     title: 'Languages',
     items: [
       { icon: <IoLogoHtml5 className="text-7xl lg:text-6xl text-red-400 drop-shadow-md" />, label: 'HTML', duration: 3 },
-      { icon: <SiTypescript className="text-7xl lg:text-6xl text-blue-400   drop-shadow-md" />, label: 'CSS', duration: 2.5 },
+      { icon: <SiTypescript className="text-7xl lg:text-6xl text-blue-400   drop-shadow-md" />, label: 'Typescript', duration: 2.5 },
       { icon: <DiJavascript1 className="text-7xl lg:text-6xl text-yellow-400 drop-shadow-md" />, label: 'JavaScript', duration: 3 },
       { icon: <img src={clogo} className="w-16 h-[100%] drop-shadow-md" alt="C" />, label: 'C++', duration: 2.5 },
     ],

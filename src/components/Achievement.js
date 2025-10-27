@@ -5,14 +5,10 @@ const achievements = [
   {
     title: 'Solved 1000+ DSA Problems on',
     links: [
-      { name: 'LeetCode', url: 'https://leetcode.com/u/shido_AKV/' },
+      { name: 'LeetCode', url: '' },
       { name: 'GeeksforGeeks', url: 'https://www.geeksforgeeks.org/user/abhi3jthk/' },
       { name: 'InterviewBit', url: 'https://www.interviewbit.com/profile/abhishek_847/' },
     ],
-  },
-  {
-    title: 'LeetCode Max Rating: 1689',
-    detail: 'Global Rank 991 in Biweekly Contest 142',
   },
   {
     title: 'JEE Main Percentile: 98.75%',
@@ -46,7 +42,7 @@ const Achievement = () => {
         </span>
       </motion.h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
         {achievements.map((item, index) => (
           <motion.div
             key={index}
@@ -58,7 +54,7 @@ const Achievement = () => {
                        shadow-[0_0_10px_rgba(124,58,237,0.4)] hover:shadow-[0_0_20px_rgba(56,189,248,0.6)] transition-shadow duration-300"
           >
             <div
-              className="h-full w-full p-6 bg-slate-950 rounded-[inherit] 
+              className="h-full w-full p-6 items-center bg-slate-950 rounded-[inherit] 
               md:min-h-[200px] min-h-[150px] shadow-inner shadow-black/40 flex flex-col justify-center"
             >
               <h3 className="text-xl font-semibold text-white mb-2">
